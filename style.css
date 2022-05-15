@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body, html{
+    height: 100%;
+}
+
+.background{
+    background-image: url(mobile-image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.header-area{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+}
+
+ul li a{
+    text-decoration: none;
+    padding: 0 20px;
+    color: brown;
+    font-weight: bold;
+}
+
+.container1{
+    padding-right: 50%;
+    padding-top: 10%;
+    padding-left: 5%;
+}
+
+.container2{
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+.head5{
+    padding-bottom: 30px;
+    color: tomato;
+    font-weight: bolder;
+}
+
+.head1{
+    padding-bottom: 30px;
+    color: white;
+}
+
+.paragraph1{
+    padding-bottom: 30px;
+}
+
+.button1{
+    padding: 10px 20px;
+    background-color: tomato;
+    border: none;
+    border-radius: 5px;
+}
+
+.button1 a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.button2{
+    background-color: transparent;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border-color: tomato;
+    border-width: thin;
+    margin-left: 5px;
+}
+
+.button2 a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/*.images{
+
+}*/
+
+.footer[
+    footer
+]
+
+ /* For mobile phones: */
+ [class*="col-"] {
+    width: 100%;
+  }
+
+
+@media only screen and (max-width: 768px) {
+    /* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}    
+}
