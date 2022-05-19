@@ -8,7 +8,7 @@ body, html{
 }
 
 .background{
-    background-image: url(mobile-image.jpg);
+    background-image: url(images/example2.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -30,22 +30,15 @@ ul{
 
 ul li a{
     text-decoration: none;
-    padding: 0 20px;
+    padding: 0 30px;
     color: brown;
     font-weight: bold;
 }
 
 .container1{
-    padding-right: 50%;
+    padding-right: 70%;
     padding-top: 10%;
     padding-left: 5%;
-}
-
-.container2{
-    display: flex;
-    justify-items: center;
-    justify-content: space-around;
-    padding: 50px 0;
 }
 
 .head5{
@@ -56,7 +49,7 @@ ul li a{
 
 .head1{
     padding-bottom: 30px;
-    color: white;
+    color: black;
 }
 
 .paragraph1{
@@ -91,13 +84,85 @@ ul li a{
     font-weight: bold;
 }
 
+.container2{
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
 /*.images{
 
 }*/
 
-.footer[
-    footer
-]
+.container3{
+    display: flex;
+    justify-content: space-around;   
+}
+
+.container3 h1{
+    color: tomato;
+}
+
+.bottom{
+    background-image: url(images/biip-image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+#footer{
+    width: 100%;
+    background-color: black;
+}
+
+.media{
+    color: white;
+    text-align: center;
+    padding: 20px 0 0;
+    font-weight: bolder;
+}
+
+#icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*Style the icons*/
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+  
+.fa:hover {
+      opacity: 0.7;
+}
+  
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+  
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-instagram {
+    background: tomato;
+    color: white;
+}
+
+.fa-envelope {
+    background:cadetblue;
+    /*color: white;*/
+}
+  
 
  /* For mobile phones: */
  [class*="col-"] {
